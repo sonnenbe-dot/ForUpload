@@ -1,0 +1,34 @@
+Documentation:
+
+1)
+Prepare your workspace in the left column "Preparation":
+
+a)
+If you dont have a ParameterFile yet:
+Click the Pipeline Parameters button and set proper values for the Parameters OperatingSystem (either linux or windows) and Reference (Use the Browse Button to find it)
+The reference needs to be a .csv file.
+If you have a ParameterFile:
+Do the above step anyways to check if the OperatingSystem is correct and the reference path valid.
+
+b)
+Go back and click the Button "Write Samplesheet"!
+Here write the SampleNameColumNumber are and Indexcombination/Sequence - ColumnNumber in your referencefile.
+Depending on how many Samples you would to extract add the corresponding RowNumber of the beginning Sample and the RowNumber of the end Sample.
+Do the same for the Indexcombis/Sequence
+
+c) 
+Click the Pipeline Parameters button and add the Samplesheet and other folders and files that are missing
+(This includes the newly created SampleSheet, Primerfile, Path to your RExecutable, Rawdata Folder where the zipped fastq files are stored.
+Samplesheet, Primerfile and Rawdata folder need to be in the same location of your scripts. 
+RExecutable and Reference can be stored anywhere on your system.
+
+d) Use the Button WorkSpace Status to check if all input parameters exist.
+
+2)
+If the workspace is ready you can move to the second Folder to start the Pipeline!
+
+a) First choose a ProjectFolder Name where all the outputs are stored.
+
+Then start the first and then second step of the pipeline.
+(If you just want to run the second step of the pipeline remember to set the Project to an existing ProjectFolder.
+The second part of the pipeline needs the matrix created by the first step.
